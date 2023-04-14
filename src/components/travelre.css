@@ -18,7 +18,8 @@
     padding-left: 260px;
     position: absolute;
     height:100vh;
-    width: 100vw;
+    /* width: 100vw; */                   /*****************Changed For Windows**********************/
+    width: 80.7vw;
     
     
    
@@ -27,7 +28,9 @@
 .travel-container {
     position: relative;
     margin-top: 100px;
-    margin-left: 230px;
+    /* margin-left: 230px; */              /******************Changed For MAC****************/
+    margin-left: 206px;
+
     width: 500px;
     max-width: 100%;
     min-height: 300px;

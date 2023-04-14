@@ -5,6 +5,8 @@ import { login, register, token } from '../../src/actions/userAction';
 import { useAlert } from 'react-alert';
 import './login-signup.css'
 import { clearErrors } from '../../src/actions/userAction';
+import logo from '../pages/images/logo.png';
+
 
 
 const LoginSignUp = () => {
@@ -98,6 +100,7 @@ const LoginSignUp = () => {
     <Fragment>
        
         <div className='loginSignUpContainer'>
+        <img src={logo} alt="" />
         <div className='container' id='main' ref={classTab}>
             <div className='sign-up' onSubmit={registerSubmit}>
                 <form action="#"  >
